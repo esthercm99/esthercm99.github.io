@@ -16,9 +16,9 @@
 
 <body> <!-- - #PARTICLE CONTAINER -->
     <div class="lang-switch">
-        <a href="index.html" class="active">ES</a>
-        <span>|</span>
-        <a href="index-en.html">EN</a>
+      <a href="index.html">ES</a>
+      <span>|</span>
+      <a href="index-en.html" class="active" >EN</a>
     </div>
 
     <div id="particles-js"></div><!-- - #MAIN -->
@@ -31,7 +31,7 @@
                     <h1 class="name" title="Esther Castañeda Martín">Esther Castañeda Martín</h1>
                     <p class="title">Software Developer Analyst</p>
                 </div>
-                <button class="info_more-btn" data-sidebar-btn> <span>Mostrar contactos</span> <ion-icon name="chevron-down"></ion-icon> </button>
+                <button class="info_more-btn" data-sidebar-btn> <span>Show Contacts</span> <ion-icon name="chevron-down"></ion-icon> </button>
             </div>
             <div class="sidebar-info_more">
                 <div class="separator"></div>
@@ -57,8 +57,8 @@
                     <li class="contact-item">
                         <div class="icon-box"> <ion-icon name="location-outline"></ion-icon> </div>
                         <div class="contact-info">
-                            <p class="contact-title">Ubicación</p>
-                            <address>Algeciras, España</address>
+                            <p class="contact-title">Location</p>
+                            <address>Algeciras, Spain</address>
                         </div>
                     </li>
                 </ul>
@@ -67,25 +67,24 @@
         <div class="main-content"> <!-- - #NAVBAR -->
             <nav class="navbar">
                 <ul class="navbar-list">
-                    <li class="navbar-item"> <button class="navbar-link active" data-nav-link>Sobre mí</button> </li>
-                    <li class="navbar-item"> <button class="navbar-link" data-nav-link>Resumen</button> </li>
-                    <li class="navbar-item"> <button class="navbar-link" data-nav-link>Proyectos</button> </li>
+                    <li class="navbar-item"> <button class="navbar-link active" data-nav-link>About</button> </li>
+                    <li class="navbar-item"> <button class="navbar-link" data-nav-link>Resume</button> </li>
+                    <li class="navbar-item"> <button class="navbar-link" data-nav-link>Projects</button> </li>
                     <!--<li class="navbar-item"> <button class="navbar-link" data-nav-link>Contact</button> </li>-->
                 </ul>
             </nav>
             <!-- - #ABOUT -->
-            <article class="about active" data-page="sobre mí">
+            <article class="about active" data-page="about">
                 <header>
-                    <h2 class="h2 article-title">Sobre mí</h2>
+                    <h2 class="h2 article-title">About me</h2>
                 </header>
                 <section class="about-text">
-                    <p>Hola, soy Esther Castañeda, desarrolladora de software especializada en tecnologías web (Java, Spring y Angular), con experiencia en entornos corporativos de gran escala y una fuerte pasión por el desarrollo creativo.</p>
-                    <p>A lo largo de mi carrera he trabajado en proyectos que combinan lógica, narrativa y diseño visual, desde aplicaciones web empresariales hasta pequeños juegos creados con Android Studio y Unity.</p>
-                    <p>Me impulsa el aprendizaje continuo y me encanta aplicar las mejores prácticas del desarrollo de software al mundo de las experiencias interactivas y la creación de videojuegos, uniendo creatividad y precisión en cada proyecto.</p>
-                </section>
-                <!-- - techstack -->
+                    <p>Hi, I'm Esther Castañeda, a software developer specialized in web technologies (Java, Spring, and Angular), with experience in large-scale corporate environments and a strong passion for creative development.</p>
+                    <p>Throughout my career, I’ve worked on projects that combine logic, storytelling, and visual design, ranging from enterprise web applications to small games built with Android Studio and Unity.</p>
+                    <p>I’m driven by continuous learning and love bringing the best of Software development practices into the world of interactive experiences and game creation, blending creativity and precision in every project.</p>
+                </section> <!-- - techstack -->
                 <section class="techstack">
-                    <h3 class="h3 skills-title">Tecnologías</h3>
+                    <h3 class="h3 skills-title">Tech Stack</h3>
 
                     <ul class="techstack-list">
 
@@ -192,32 +191,48 @@
             </article>
 
             <!-- - #RESUME -->
-            <article class="resume" data-page="resumen">
+            <article class="resume" data-page="resume">
                 <header>
                     <h2 class="article-title h2">Resume</h2>
-                    <!-- TODO -->
                     <a href="./assets/resume/Esther Castañeda Martin_Resume.pdf" class="download-resume-btn" target="_blank" rel="noopener noreferrer">
                         <ion-icon name="cloud-download"></ion-icon>
-                        Descargar CV
+                        Download Resume
                     </a>
                 </header>
                 <section class="timeline">
                     <div class="title-wrapper">
                         <div class="icon-box"> <img src="./assets/images/icon-work.svg" alt="work logo"> </div>
-                        <h3 class="h3">Experiencia</h3>
+                        <h3 class="h3">Experience</h3>
                     </div>
                     <ol class="timeline-list">
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Analista Desarrolladora de Software</h4> <span><b>Accenture</b>, abril 2025 — presente</span>
-                            <p class="timeline-text"> - Migración de controladores a una arquitectura multicanal utilizando <b>Java</b> y <b>Spring Boot</b>.<br> - Desarrollo de interfaces dinámicas en <b>Angular</b> para aplicaciones internas.<br> - Automatización de pruebas con <b>Python</b> (entrada/salida en Excel), mejorando la eficiencia del área de QA.<br> - Configuración y despliegue de aplicaciones con <b>Jenkins</b> en entornos de desarrollo, integración, preproducción y producción.<br> - Colaboración en equipos <b>Ágiles/Scrum</b>. </p>
+                            <h4 class="h4 timeline-item-title">Software Developer Analyst</h4>
+                            <span><b>Accenture</b>, April 2025 — Present</span>
+                            <p class="timeline-text">
+                                - Migrated controllers to multichannel architecture using <b>Java</b> and <b>Spring Boot</b>.<br>
+                                - Developed dynamic <b>Angular</b> interfaces for internal applications.<br>
+                                - Automated testing with <b>Python</b> (Excel input/output), improving QA efficiency.<br>
+                                - Configured and deployed applications with <b>Jenkins</b> across development, integration, pre-production, and production environments.<br>
+                                - Collaborated in <b>Agile/Scrum</b> teams. </p>
                         </li>
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Analista de Ingeniería de Calidad</h4> <span><b>Accenture</b>, mayo 2021 — abril 2025</span>
-                            <p class="timeline-text"> - Realización de pruebas funcionales de servicios web utilizando <b>SOAP UI</b>.<br> - Diseño e implementación de programas de automatización de pruebas en <b>Python</b>, integrando los resultados con Excel.<br> - Documentación de incidencias y coordinación con los equipos de desarrollo para resolver errores críticos.<br> - Participación en equipos Ágiles para garantizar la entrega de software de alta calidad. </p>
+                            <h4 class="h4 timeline-item-title">Quality Engineering Analyst</h4>
+                            <span><b>Accenture</b>, May 2021 — April 2025</span>
+                            <p class="timeline-text">
+                                - Performed functional testing of web services using <b>SOAP UI</b>.<br>
+                                - Designed and implemented test automation programs in <b>Python</b>, integrating results with Excel.<br>
+                                - Documented issues and coordinated with development teams to resolve critical bugs.<br>
+                                - Participated in Agile teams to ensure high-quality software delivery.
+                            </p>
                         </li>
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Desarrolladora de Software</h4> <span><b>Omnium Lab Studios</b>, febrero 2021 — marzo 2021</span>
-                            <p class="timeline-text"> - Desarrollo de aplicaciones móviles con <b>Ionic</b> para proyectos como Tarjetto, Alois y Coitta.<br> - Implementación de interfaces de usuario e integración de APIs REST.<br> - Realización de pruebas unitarias y apoyo al equipo de desarrollo. </p>
+                            <h4 class="h4 timeline-item-title">Software Developer</h4>
+                            <span><b>Omnium Lab Studios</b>, February 2021 — March 2021</span>
+                            <p class="timeline-text">
+                                - Developed mobile applications with <b>Ionic</b> for projects such as Tarjetto, Alois, and Coitta.<br>
+                                - Implemented user interfaces and integrated REST APIs.<br>
+                                - Conducted unit testing and provided support to the development team.
+                            </p>
                         </li>
                     </ol>
                 </section>
@@ -225,32 +240,32 @@
                 <section class="timeline">
                     <div class="title-wrapper">
                         <div class="icon-box"> <ion-icon name="book-outline"></ion-icon> </div>
-                        <h3 class="h3">Educación</h3>
+                        <h3 class="h3">Education</h3>
                     </div>
                     <ol class="timeline-list">
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">FP Superior en Desarrollo de Aplicaciones Web </h4> <span>2020 —
+                            <h4 class="h4 timeline-item-title">Higher Technician in Web Application Development </h4> <span>2020 —
                                 2021</span>
                             <p class="timeline-text"> CEAC </p>
                         </li>
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">FP Superior en Desarrollo de Aplicaciones en Multiplataformas </h4> <span>2017 — 2020</span>
+                            <h4 class="h4 timeline-item-title">Higher Technician in Multiplatform Application Development </h4> <span>2017 — 2020</span>
                             <p class="timeline-text"> IES Saladillo</p>
                         </li>
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Bachillerato de ciencias</h4> <span>2015 —
+                            <h4 class="h4 timeline-item-title">Bachelor of Technological Sciences </h4> <span>2015 —
                                 2017</span>
                             <p class="timeline-text"> IES Virgen de la Esperanza </p>
                         </li>
                         <li class="timeline-item">
-                            <h4 class="h4 timeline-item-title">Educación Secundaria Obligatoria </h4> <span>2011 —
+                            <h4 class="h4 timeline-item-title">Compulsory Secondary Education </h4> <span>2011 —
                                 2015</span>
                             <p class="timeline-text"> IES Virgen de la Esperanza </p>
                         </li>
                     </ol>
                 </section>
                 <section class="service">
-                    <h3 class="h3 service-title">Certificados</h3>
+                    <h3 class="h3 service-title">Certifications</h3>
                     <ul class="service-list has-scrollbar">
                         <li class="service-item">
                             <div class="service-icon-box"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV660Gq6rMRFsvzdHFQckJd0tGdFlVGSkRpA&s" alt="freeCodeCamp" width="40"> </div>
@@ -346,7 +361,7 @@
                     </ul>
                 </section>
                 <section class="skill">
-                    <h3 class="h3 skills-title">Mis habilidades</h3>
+                    <h3 class="h3 skills-title">My Skills</h3>
 
                     <ul class="skills-list content-card">
 
@@ -414,30 +429,34 @@
                 </section>
 
             </article> <!-- - #Projects -->
-            <article class="projects" data-page="proyectos">
+            <article class="projects" data-page="projects">
                 <header>
-                    <h2 class="h2 article-title">Proyectos</h2>
+                    <h2 class="h2 article-title">Projects</h2>
                 </header>
                 <section class="projects">
                     <!-- Tagline for the Projects Section -->
-                    <p class="section-tagline">Descubre proyectos que he creado, en los que he contribuido o que he encontrado fascinantes — la mayoría de ellos desplegados para mostrar impacto práctico, creatividad y despertar curiosidad.</p> <!-- Botones de filtrado TODO: ELIMINAR -->
+                    <p class="section-tagline">Discover projects I've built, contributed to, or found fascinating — most of them deployed to showcase practical impact, creativity and spark curiosity. </p>
+
+                    <!-- Filter Buttons -->
                     <ul class="filter-list">
-                        <li class="filter-item"> <button class="active" data-filter-btn>Todos</button> </li>
+                        <li class="filter-item"> <button class="active" data-filter-btn>All</button> </li>
                         <li class="filter-item"> <button data-filter-btn>Java</button> </li>
                         <li class="filter-item"> <button data-filter-btn>Web</button> </li>
-                        <li class="filter-item"> <button data-filter-btn>Otros</button> </li>
+                        <li class="filter-item"> <button data-filter-btn>Others</button> </li>
                     </ul>
                     <div class="filter-select-box"> <button class="filter-select" data-select>
-                            <div class="select-value" data-selecct-value>Selecciona la categoría</div>
+                            <div class="select-value" data-selecct-value>Select category</div>
                             <div class="select-icon"> <ion-icon name="chevron-down"></ion-icon> </div>
                         </button>
                         <ul class="select-list">
-                            <li class="select-item"> <button data-select-item>Todos</button> </li>
+                            <li class="select-item"> <button data-select-item>All</button> </li>
                             <li class="select-item"> <button data-select-item>Java</button> </li>
                             <li class="select-item"> <button data-select-item>Web</button> </li>
-                            <li class="select-item"> <button data-select-item>Otros</button> </li>
+                            <li class="select-item"> <button data-select-item>Others</button> </li>
                         </ul>
-                    </div> <!-- Lista de Proyectos -->
+                    </div>
+
+                    <!-- Projects List -->
                     <ul class="project-list">
 
                         <li class="project-item active" data-filter-item data-category="java">
@@ -450,7 +469,7 @@
                                 </figure>
                                 <h3 class="project-title">Mastermind (Android)</h3>
                                 <p class="project-category">
-                                    Mastermind para Android: adaptación del clásico juego de lógica Mastermind. Creación de una interfaz simple e intuitiva, validación de combinaciones y sistema de pistas desde cero. Incluye modo individual y multijugador contra IA.
+                                    Android Mastermind, adapted the classic logic game Mastermind for Android. Created a simple and intuitive interface, combination validation, and a clue system from scratch. Includes single-player mode and multiplayer against an AI.
                                 </p>
                             </a>
                         </li>
@@ -461,11 +480,11 @@
                                     <div class="project-item-icon-box">
                                         <ion-icon name="eye-outline"></ion-icon>
                                     </div>
-                                    <img src="./assets/images/projects/Pokemon.jpg" alt="Simulador de Pokémon en Consola" loading="lazy" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                                    <img src="./assets/images/projects/Pokemon.jpg" alt="Console-Based Pokémon-Inspired Simulator" loading="lazy" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
                                 </figure>
-                                <h3 class="project-title">Simulador de Pokémon en Consola</h3>
+                                <h3 class="project-title">Console-Based Pokémon-Inspired Simulator</h3>
                                 <p class="project-category">
-                                    Simulador de consola inspirado en batallas de Pokémon desarrollado en Java. Implementación de lógica personalizada para turnos, ataques, gestión de salud e interacciones de tipos.
+                                    Developed a console simulator inspired by Pokémon battles in Java. Implemented custom logic for turn-based system, attacks, health management, and type interactions.
                                 </p>
                             </a>
                         </li>
@@ -480,7 +499,7 @@
                                 </figure>
                                 <h3 class="project-title">RealTimeCorona</h3>
                                 <p class="project-category">
-                                    Aplicación Android que muestra datos en tiempo real de COVID-19 usando APIs públicas. Desarrollada con Java y layouts XML durante el confinamiento de 2020.
+                                    Android app displaying real-time COVID-19 data using public APIs. Built with Java and XML layouts during the 2020 lockdown.
                                 </p>
                             </a>
                         </li>
@@ -493,14 +512,14 @@
                                     </div>
                                     <img src="./assets/images/projects/project-warframe.jpg" alt="Warframe Web" loading="lazy" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
                                 </figure>
-                                <h3 class="project-title">Web Warframe</h3>
+                                <h3 class="project-title">Warframe Companion Website</h3>
                                 <p class="project-category">
-                                    Proyecto frontend desarrollado en Angular para explorar datos y recursos de Warframe. Enfoque en interfaz modular y diseño responsivo.
+                                    Frontend project developed in Angular to explore Warframe data and resources. Focused on modular UI and responsive design.
                                 </p>
                             </a>
                         </li>
 
-                        <li class="project-item active" data-filter-item data-category="otros">
+                        <li class="project-item active" data-filter-item data-category="others">
                             <a target="_blank" rel="noopener noreferrer">
                                 <figure class="project-img">
                                     <div class="project-item-icon-box">
@@ -508,24 +527,24 @@
                                     </div>
                                     <img src="./assets/images/projects/project-qa.jpg" alt="Python Automation" loading="lazy" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
                                 </figure>
-                                <h3 class="project-title">Script de Automatización QA</h3>
+                                <h3 class="project-title">QA Automation Script</h3>
                                 <p class="project-category">
-                                    Script en Python que automatiza casos de prueba funcionales con entrada/salida en Excel. Usado en proyectos de QA de Accenture para optimizar la ejecución de pruebas.
+                                    Python script automating functional test cases with Excel input/output, used in Accenture QA projects to optimize test execution.
                                 </p>
                             </a>
                         </li>
 
-                        <li class="project-item active" data-filter-item data-category="otros">
+                        <li class="project-item active" data-filter-item data-category="others">
                             <a href="https://www.linkedin.com/posts/esther-casta%C3%B1eda-89900716a_prototipo-inicial-de-mi-peque%C3%B1o-videojuego-activity-7319984751816142848-u21V" target="_blank" rel="noopener noreferrer">
                                 <figure class="project-img">
                                     <div class="project-item-icon-box">
                                         <ion-icon name="eye-outline"></ion-icon>
                                     </div>
-                                    <img src="./assets/images/projects/untitled.jpg" alt="Videojuego de plataformas vertical en Unity" loading="lazy" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
+                                    <img src="./assets/images/projects/untitled.jpg" alt="Vertical platform game in Unity" loading="lazy" onerror="this.style.display='none'; this.previousElementSibling.style.display='flex';">
                                 </figure>
-                                <h3 class="project-title">Videojuego de plataformas vertical en Unity</h3>
+                                <h3 class="project-title">Vertical platform game in Unity</h3>
                                 <p class="project-category">
-                                    Proyecto personal en desarrollo. Creación de un juego de plataformas vertical en Unity usando C#. Diseño de niveles y mecánicas enfocadas en juego rápido y desafiante. Lanzamiento previsto en Itch.io como juego gratuito.
+                                    Personal Project in Development. Developing a vertical platformer game using Unity and C#. Designing levels and gameplay mechanics focused on fast-paced, challenging play. Planned release on Itch.io as a free game.
                                 </p>
                             </a>
                         </li>

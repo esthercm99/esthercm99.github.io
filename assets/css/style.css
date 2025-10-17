@@ -2232,3 +2232,28 @@ textarea.form-input::-webkit-resizer {
     box-shadow: var(--download-btn-active-box-shadow);
     color: var(--name-highlight);
 }
+
+/* Selector de idioma */
+.lang-switch {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+  background: transparent;
+  padding: 10px 30px;
+}
+
+.lang-switch a,
+.lang-switch span {
+  color: #aaa;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: color 0.3s;
+}
+
+.lang-switch a:hover,
+.lang-switch a.active {
+  color: #00bfa6;
+}
